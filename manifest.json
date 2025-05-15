@@ -23,14 +23,14 @@
   "screenshots": [
     {
       "src": "img/screenshots/desktop.png",
-      "sizes": "1280x720",
+      "sizes": "2048x1200",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Desktop view"
     },
     {
       "src": "img/screenshots/phone.png",
-      "sizes": "375x667",
+      "sizes": "750x1334",
       "type": "image/png",
       "form_factor": "narrow",
       "label": "Mobile view"
