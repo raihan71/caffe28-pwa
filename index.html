@@ -36,7 +36,15 @@
     <footer>
       <p>&copy; 2025 Caffe28. All rights reserved.</p>
     </footer>
-
+    <script type="text/javascript">
+      window.addEventListener('load', function () {
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('service-worker.js');
+        } else {
+          console.log('Service Worker not supported in this browser.');
+        }
+      });
+    </script>
     <script src="js/script.js"></script>
   </body>
 </html>
