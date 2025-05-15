@@ -1,0 +1,78 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dylib
+*.dll
+
+# Caffe specific
+*.caffemodel
+*.solverstate
+*.binaryproto
+*.train_info
+/build/
+/distribute/
+
+# C/C++ specific
+*.o
+*.a
+*.lib
+*.lo
+*.la
+*.out
+*.app
+
+# Visual Studio/Visual Studio Code
+.vs/
+.vscode/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.opensdf
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+
+# Python Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs
+*.log
+logs/
+*.pid
+*.seed
+
+# Data directories
+/data/
+/models/
+/examples/**/examples
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

@@ -1,0 +1,26 @@
+{
+  "name": "Caffe28",
+  "short_name": "Caffe28",
+  "description": "A simple and elegant coffee shop website",
+  "version": "1.0.0",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#fdfdfd",
+  "icons": [
+    {
+      "src": "img/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/android-chrome-512x512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US"
+}
