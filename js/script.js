@@ -2,34 +2,34 @@ const container = document.querySelector('.container');
 
 const coffees = [
   {
-    name: 'Espresso',
-    image: 'img/products/coffee1.jpg',
+    name: 'Abon Sapi Original 80gr',
+    image: 'img/products/abon1.jpg',
     description:
-      'A strong and bold coffee brewed by forcing hot water through finely-ground coffee beans.',
+      'A savory beef floss product made from high-quality beef, perfect for topping rice or noodles.',
   },
   {
-    name: 'Latte',
-    image: 'img/products/coffee2.jpg',
+    name: 'Abon Sapi Original Kiloan',
+    image: 'img/products/abon1.jpg',
     description:
-      'A creamy coffee drink made with espresso and steamed milk, often topped with foam.',
+      'A savory beef floss product made from high-quality beef, perfect for topping rice or noodles.',
   },
   {
-    name: 'Cappuccino',
-    image: 'img/products/coffee3.jpg',
+    name: 'Nastar Keju - Raifa',
+    image: 'img/products/cookie1.jpg',
     description:
-      'A rich coffee drink made with equal parts espresso, steamed milk, and milk foam.',
+      'A delicious cheese-filled pastry, perfect for snacking or as a dessert.',
   },
   {
-    name: 'Americano',
-    image: 'img/products/coffee4.jpg',
+    name: 'Pizza - Raifa',
+    image: 'img/products/cookie2.jpg',
     description:
-      'A simple coffee drink made by diluting espresso with hot water.',
+      'A savory pizza-flavored snack, perfect for parties or casual gatherings.',
   },
   {
-    name: 'Mocha',
-    image: 'img/products/coffee5.jpg',
+    name: 'Kue Keju - Raifa',
+    image: 'img/products/cookie3.jpg',
     description:
-      'A chocolate-flavored variant of a latte, made with espresso, steamed milk, and chocolate syrup.',
+      'A delightful cheese-flavored cake, perfect for tea time or as a dessert.',
   },
   {
     name: 'Macchiato',
@@ -43,11 +43,11 @@ const showCoffees = () => {
   let coffeeCards = '';
   coffees.forEach((coffee) => {
     coffeeCards += `
-    <div class="card">
+    <div id="menu" class="card">
       <img class="card--avatar" loading="lazy" src=${coffee?.image} alt="${coffee?.name}" />
       <h1 class="card--title">${coffee?.name}</h1>
       <p class="card--description">${coffee?.description}</p>
-      <a class="card--link" href="#">Order</a>
+      <a class="card--link" href="//api.whatsapp.com/send?phone=6285190136122&text=assalamualaikum...mau%20tanya">Pesan</a>
     </div>
     `;
   });

@@ -43,10 +43,10 @@ li a {
   font-weight: 700;
 }
 li a:hover {
-  color: #e74c3c;
+  color: brown;
 }
 h1 {
-  color: #e74c3c;
+  color: brown;
   margin-bottom: 0.5rem;
 }
 
@@ -75,6 +75,12 @@ h1 {
   width: 100%;
   height: 10rem;
   object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card--avatar {
+  transform: scale(1.05);
 }
 .card--title {
   color: #222;
@@ -87,11 +93,15 @@ h1 {
   color: #666;
   font-size: 0.9rem;
   margin: 0.5rem 0;
+  padding: 0 1rem;
+  flex-grow: 1; /* This allows the description to take up available space */
 }
 .card--link {
   text-decoration: none;
-  background: #db4938;
+  background: brown;
   color: #fff;
   padding: 0.3rem 1rem;
   border-radius: 20px;
+  margin-bottom: 1rem; /* Add some space at the bottom */
+  display: inline-block; /* Prevents the link from stretching full width */
 }
